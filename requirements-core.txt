@@ -1,5 +1,5 @@
 pip>=18.0
-numpy>=1.19.5
+numpy>=1.22.2
 scipy>=1.9
 # scikit-learn version 1.0.0 includes problematic libomp 12 which breaks xgboost
 # https://github.com/scikit-learn/scikit-learn/pull/21227
@@ -26,3 +26,4 @@ pandas>=1.4.0,!=1.5.0
 pyyaml
 openpyxl
 httpx>=0.21.0
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
