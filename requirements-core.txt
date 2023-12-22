@@ -26,3 +26,4 @@ pandas>=1.4.0,!=1.5.0
 pyyaml
 openpyxl
 httpx>=0.21.0
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
