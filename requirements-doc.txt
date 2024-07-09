@@ -4,3 +4,4 @@ docutils<0.17
 Sphinx>=4.2.0
 recommonmark
 sphinx-multiproject
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
